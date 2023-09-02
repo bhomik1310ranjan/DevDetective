@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang = "en" class = "font-rubik">
+    <head>
+        <title>
+            DevDetective
+        </title>
+        <meta charset = "UTF-8"/>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>
+        
+        <link rel = "icon" href = "data:image/png;base64,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"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+      <script type="module" crossorigin src="/assets/index-12d14c50.js"></script>
+      <link rel="stylesheet" href="/assets/index-b3dc3b79.css">
+    </head>
+    <body>
+        <div class = "w-full min-h-screen overflow-x-hidden overflow-y-auto bg-lightGrayishBlue dark:bg-darkBlue">
+            <nav class = "w-11/12 md:w-10/12 max-w-6xl mx-auto flex justify-between items-center py-6">
+                <div class = "flex items-center gap-x-1 sm:gap-x-2 cursor-default">
+                    <i class = "fa-solid fa-code text-xl xsm:text-2xl sm:text-4xl text-black dark:text-white"></i>
+                    <div class = "font-medium text-base xsm:text-lg sm:text-2xl uppercase tracking-wider flex items-baseline">
+                        <span class = "text-violetBlue">Dev</span>
+                        <span class = "text-black dark:text-white">Detective</span>
+                    </div>
+                </div>
+                <div>
+                    <button id = "theme-toggle-button" class = "flex justify-center items-center px-1.5 py-0.5">
+                        <span id = "light-mode-icon" class = "material-icons-outlined text-xl xsm:text-2xl sm:text-3xl text-white">
+                            light_mode
+                        </span>
+                        <span id = "dark-mode-icon" class = "material-icons-outlined text-xl xsm:text-2xl sm:text-3xl text-violetBlue">
+                            dark_mode
+                        </span>
+                    </button>
+                </div>
+            </nav>
+            <main class = "w-11/12 md:w-10/12 max-w-5xl mx-auto">
+                <form id = "search-form" role = "search" class = "w-full sm:w-3/4 md:w-3/5 mx-auto flex items-center gap-x-2 sm:gap-x-4 py-4">
+                    <input id = "search-input" type = "search" placeholder = "Enter a Github username" spellcheck = "false" class = "w-full text-sm xsm:text-base sm:text-lg text-black dark:text-white bg-transparent border border-violetBlue dark:border-patrickBlue placeholder:text-blackWithLessOpacity dark:placeholder:text-whiteWithLessOpacity rounded-md focus:outline-none px-2 py-1 sm:px-3 sm:py-1.5"/>
+                    <button type = "submit" class = "text-sm xsm:text-base sm:text-lg text-white bg-violetBlue dark:bg-patrickBlue rounded-md px-3 py-1.25 sm:px-5 sm:py-1.75">
+                        Search
+                    </button>
+                </form>
+
+                <div id = "counter-section" class = "w-full md:w-11/12 mx-auto grid grid-cols-1 xsm:grid-cols-2 lg:grid-cols-4 gap-2 xsm:gap-3 sm:gap-4 py-4">
+                    <div class = "bg-white dark:bg-eerieBlack border-b-4 border-paleRobinEggBlue dark:border-blueGreen rounded-md flex items-center gap-x-3 sm:gap-x-4 p-2 xsm:p-3 sm:p-4 shadow-lg dark:shadow-none">
+                        <div class = "w-10 xsm:w-12 sm:w-14 aspect-square rounded-full flex justify-center items-center bg-paleRobinEggBlue dark:bg-blueGreen">
+                            <svg class = "w-2/5 text-keppel" stroke = "currentColor" fill = "currentColor" stroke-width = "0" viewBox = "0 0 12 16" xmlns = "http://www.w3.org/2000/svg">
+                                <path fill-rule = "evenodd" d = "M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div id = "repos-count" class = "font-medium text-base xsm:text-lg sm:text-xl text-black dark:text-white">
+                                
+                            </div>
+                            <div class = "text-xs xsm:text-sm sm:text-base text-blackWithLessOpacity dark:text-whiteWithLessOpacity">
+                                Repos
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "bg-white dark:bg-eerieBlack border-b-4 border-freshAir dark:border-darkCerulean rounded-md flex items-center gap-x-3 sm:gap-x-4 p-2 xsm:p-3 sm:p-4 shadow-lg dark:shadow-none">
+                        <div class = "w-10 xsm:w-12 sm:w-14 aspect-square rounded-full flex justify-center items-center bg-freshAir dark:bg-darkCerulean">
+                            <svg class = "w-1/2 text-dodgerBlue" stroke = "currentColor" fill = "none" stroke-width = "2" viewBox = "0 0 24 24" stroke-linecap = "round" stroke-linejoin = "round" xmlns = "http://www.w3.org/2000/svg">
+                                <path d = "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx = "9" cy = "7" r = "4"></circle>
+                                <path d = "M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d = "M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div id = "followers-count" class = "font-medium text-base xsm:text-lg sm:text-xl text-black dark:text-white">
+                                
+                            </div>
+                            <div class = "text-xs xsm:text-sm sm:text-base text-blackWithLessOpacity dark:text-whiteWithLessOpacity">
+                                Followers
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "bg-white dark:bg-eerieBlack border-b-4 border-maximumBluePurple dark:border-persianIndigo rounded-md flex items-center gap-x-3 sm:gap-x-4 p-2 xsm:p-3 sm:p-4 shadow-lg dark:shadow-none">
+                        <div class = "w-10 xsm:w-12 sm:w-14 aspect-square rounded-full flex justify-center items-center bg-maximumBluePurple dark:bg-persianIndigo">
+                            <svg class = "w-1/2 text-electricUltramarine" stroke = "currentColor" fill = "none" stroke-width = "2" viewBox = "0 0 24 24" stroke-linecap = "round" stroke-linejoin = "round" xmlns = "http://www.w3.org/2000/svg">
+                                <path d = "M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx = "8.5" cy = "7" r = "4"></circle>
+                                <line x1 = "20" y1 = "8" x2 = "20" y2 = "14"></line>
+                                <line x1 = "23" y1 = "11" x2 = "17" y2 = "11"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <div id = "following-count" class = "font-medium text-base xsm:text-lg sm:text-xl text-black dark:text-white">
+                                
+                            </div>
+                            <div class = "text-xs xsm:text-sm sm:text-base text-blackWithLessOpacity dark:text-whiteWithLessOpacity">
+                                Following
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "bg-white dark:bg-eerieBlack border-b-4 border-deepPeach dark:border-sepia rounded-md flex items-center gap-x-3 sm:gap-x-4 p-2 xsm:p-3 sm:p-4 shadow-lg dark:shadow-none">
+                        <div class = "w-10 xsm:w-12 sm:w-14 aspect-square rounded-full flex justify-center items-center bg-deepPeach dark:bg-sepia">
+                            <svg class = "w-2/5 text-pumpkin" stroke = "currentColor" fill = "currentColor" stroke-width = "0" viewBox = "0 0 12 16" xmlns = "http://www.w3.org/2000/svg">
+                                <path fill-rule = "evenodd" d = "M7.5 5L10 7.5 7.5 10l-.75-.75L8.5 7.5 6.75 5.75 7.5 5zm-3 0L2 7.5 4.5 10l.75-.75L3.5 7.5l1.75-1.75L4.5 5zM0 13V2c0-.55.45-1 1-1h10c.55 0 1 .45 1 1v11c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1zm1 0h10V2H1v11z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div id = "gists-count" class = "font-medium text-base xsm:text-lg sm:text-xl text-black dark:text-white">
+                                
+                            </div>
+                            <div class = "text-xs xsm:text-sm sm:text-base text-blackWithLessOpacity dark:text-whiteWithLessOpacity">
+                                Gists
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "main-section" class = "w-full md:w-11/12 mx-auto rounded-md bg-white dark:bg-eerieBlack flex flex-col sm:flex-row gap-x-10 gap-y-5 shadow-lg dark:shadow-none p-4 xsm:p-6 sm:p-8 my-4">
+                    <div>
+                        <img id = "avatar" alt = "Github Avatar" class = "w-24 xsm:w-36 sm:w-44 rounded-full mx-auto"/>
+                    </div>
+                    <div class = "w-full">
+                        <div class = "flex justify-between items-start gap-x-4 pb-2">
+                            <div>
+                                <p id = "name" class = "font-medium text-base xsm:text-lg sm:text-2xl text-black dark:text-white tracking-wider">
+                                </p>
+                                <p id = "username" class = "text-sm xsm:text-base sm:text-xl text-black dark:text-white">
+                                </p>
+                                <p id = "date" class = "text-sm xsm:text-base sm:text-lg text-black dark:text-white">
+                                </p>
+                            </div>
+                            <a id = "follow-button" target = "_blank" class = "text-sm xsm:text-base sm:text-xl text-white bg-violetBlue dark:bg-patrickBlue rounded-md px-3 py-1">
+                                Follow
+                            </a>
+                        </div>
+                        <p id = "bio" class = "text-sm xsm:text-base sm:text-xl text-black dark:text-white pt-2 pb-3.5">
+                        </p>
+                        <div id = "location-container" class = "text-sm xsm:text-base sm:text-lg text-black dark:text-white flex items-center gap-x-2.5 py-0.5">
+                            <i class = "fa-solid fa-location-dot"></i>
+                            <p id = "location">
+                            </p>
+                        </div>
+                        <div id = "company-container" class = "text-sm xsm:text-base sm:text-lg text-black dark:text-white flex items-center gap-x-2.5 py-0.5">
+                            <i class = "fa-solid fa-building"></i>
+                            <p id = "company">
+                            </p>
+                        </div>
+                        <a id = "blog" target = "_blank" class = "text-black dark:text-white flex items-center gap-x-1 py-0.5">
+                            <i class = "fa-solid fa-link text-xs xsm:text-sm sm:text-base"></i>
+                            <p class = "text-sm xsm:text-base sm:text-lg">
+                                Blog Website
+                            </p>
+                        </a>
+                        <a id = "twitter" target = "_blank" class = "text-sm xsm:text-base sm:text-lg text-black dark:text-white flex items-center gap-x-1.5 py-0.5">
+                            <i class = "fa-brands fa-twitter"></i>
+                            <p>
+                                Twitter
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div id = "user-not-found-section" class = "w-full md:w-11/12 mx-auto rounded-md bg-white dark:bg-eerieBlack shadow-lg dark:shadow-none flex flex-col sm:flex-row items-center gap-6 p-4 xsm:p-6 sm:p-8 my-4">
+                    <img src = "/assets/error-436b360e.png" alt = "User not Found image" class = "w-full sm:w-1/2"/>
+                    <p class = "font-medium text-base xsm:text-lg sm:text-xl text-black dark:text-white text-center tracking-wider">
+                        Your search did not match any user
+                    </p>
+                </div>
+
+                <div id = "loader-section" class = "w-full md:w-11/12 mx-auto my-28">
+                    <div class = "w-20 aspect-square border-8 border-t-violetBlue border-r-white border-b-white border-l-white dark:border-t-patrickBlue dark:border-r-eerieBlack dark:border-b-eerieBlack dark:border-l-eerieBlack rounded-full mx-auto animate-spin">
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <script src = "https://kit.fontawesome.com/463da5afdf.js" crossorigin = "anonymous"></script>
+    </body>
+</html>
