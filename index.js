@@ -129,9 +129,9 @@ const getData = async (username) => {
         renderTheData(data);
         addElement(counterSection);
         addElement(mainSection);
-        removeElement(loaderSection);
     }catch(error){
         addElement(userNotFoundSection);
+    }finally{
         removeElement(loaderSection);
     }
 };
